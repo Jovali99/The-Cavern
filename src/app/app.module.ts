@@ -3,7 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {HeaderComponent} from "./header/header.component";
 import {testButton} from "./testButtonComponent";
-import {RouterLink} from "@angular/router";
+import { AppRoutingModule } from './app-routing.module';
+
+
 @NgModule({
   declarations: [
       AppComponent,
@@ -11,7 +13,7 @@ import {RouterLink} from "@angular/router";
   ],
     imports: [
         BrowserModule,
-        RouterLink
+        AppRoutingModule
     ],
   providers: [],
   bootstrap: [AppComponent]
