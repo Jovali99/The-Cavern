@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://www.1001freefonts.com/raleway.font");
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Railway", Sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
